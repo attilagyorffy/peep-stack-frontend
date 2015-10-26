@@ -1,7 +1,6 @@
-# Peep-blog-frontend
+# PEEP stack front-end
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is the front-end component of the example [PEEP Stack](https://medium.com/@j_mcnally/the-peep-stack-b7ba5afdd055#.kg4bxsapo) using a [JSONAPI](http://jsonapi.org) standard to communicate with the [Phoenix based back-end](https://github.com/liquid/peep-blog-backend).
 
 ## Prerequisites
 
@@ -23,11 +22,8 @@ You will need the following things properly installed on your computer.
 ## Running / Development
 
 * `ember server`
+* Make sure your [Phoenix back-end server](https://github.com/liquid/peep-blog-backend#running) is also running.
 * Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
 
 ### Running Tests
 
@@ -38,16 +34,3 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
